@@ -59,12 +59,13 @@ function typeWrite(element) {
       if (i < text.length) {
         element.innerHTML += text.charAt(i);
         i++;
-        setTimeout(typing, 100); // typing speed 
+        setTimeout(typing, 100); // Adjust speed here
       }
     }
     typing();
   }
-document.addEventListener("DOMContentLoaded", function () {
+
+  document.addEventListener("DOMContentLoaded", function () {
     document.querySelectorAll(".type-text").forEach(typeWrite);
   });
 
