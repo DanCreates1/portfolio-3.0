@@ -64,10 +64,13 @@ div{
     margin:20px;
     transform: translateY(-40px);
 }
-
+#pfp{
+    margin-left: 200px;
+}
 #pfp:hover{
     border: 1px solid;
     border-radius: 50%;
+   
 }
 
 
@@ -92,6 +95,14 @@ div{
     opacity: 0;
     transition: opacity 0.4s ease-in-out, transform 0.4s ease-in-out;
     pointer-events: none;
+}
+
+#loc{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 200px;
+    font-size: 1.5rem;
 }
 
 
