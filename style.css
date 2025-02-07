@@ -97,12 +97,16 @@ div{
     pointer-events: none;
 }
 
-#loc{
-    display: flex;
+#location{
+    display: fixed;
     justify-content: center;
     align-items: center;
     margin-top: 200px;
     font-size: 1.5rem;
+}
+
+#ImDan{
+    transform: translateX(-250px);
 }
 
 
