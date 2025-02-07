@@ -140,6 +140,7 @@ section, #home, #Work, #About, #experience{
     }
     #location{
         white-space: nowrap;
-        transform: translateX(-100px);
+        transform: translateX(-30px);
+        transform: translatey(-30px);
     }
   }
