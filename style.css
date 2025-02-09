@@ -136,9 +136,10 @@ section, #home, #Work, #About, #experience{
     #ImDan{
         white-space: nowrap;
         font-size: 30px;
-        transform: translateX(-250px);
+        transform: translateX(-90px);
     }
     #location{
+        font-size: 10px;
         white-space: nowrap;
         transform: translateX(-30px);
         transform: translatey(-30px);
