@@ -108,6 +108,11 @@ div{
 #ImDan{
     transform: translateX(-250px);
 }
+#FullStack{
+    white-space: nowrap;
+    margin-top: 50px;
+    transform: translateX(-150px);
+}
 
 
 
@@ -128,7 +133,8 @@ section, #home, #Work, #About, #experience{
     }
     #pfp{
         width: 150px;
-        margin-left: 30px  ;
+        margin-left: 30px;
+        
     }
     #popUp{
         font-size: 20px;
@@ -136,10 +142,10 @@ section, #home, #Work, #About, #experience{
     #ImDan{
         white-space: nowrap;
         font-size: 30px;
-        transform: translateX(-90px);
+        transform: translateX(-340px);
     }
     #location{
-        font-size: 10px;
+        font-size: 15px;
         white-space: nowrap;
         transform: translateX(-30px);
         transform: translatey(-30px);
