@@ -148,6 +148,6 @@ section, #home, #Work, #About, #experience{
         font-size: 15px;
         white-space: nowrap;
         transform: translateX(-30px);
-        transform: translatey(-30px);
+        transform: translatey(-35px);
     }
   }
