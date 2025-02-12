@@ -153,4 +153,11 @@ section, #home, #Work, #About, #experience{
         transform: translateX(-30px);
         transform: translatey(-35px);
     }
+    #scrollDown{
+        position: fixed;
+        text-align: center;
+        white-space: nowrap;
+        margin-top: 200px;
+        margin-left: -300px;
+    }
   }
