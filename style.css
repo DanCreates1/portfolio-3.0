@@ -135,6 +135,7 @@ section, #home, #Work, #About, #experience{
         width: 150px;
         margin-left: 30px;
         
+        
     }
     #popUp{
         font-size: 20px;
@@ -143,6 +144,8 @@ section, #home, #Work, #About, #experience{
         white-space: nowrap;
         font-size: 30px;
         transform: translateX(-340px);
+        margin-top: -50px;
+        margin-left: 30px;
     }
     #location{
         font-size: 15px;
