@@ -59,7 +59,7 @@ function typeWrite(element) {
       if (i < text.length) {
         element.innerHTML += text.charAt(i);
         i++;
-        setTimeout(typing, 100); // Adjust speed here
+        setTimeout(typing, 200); // Adjust speed here
       }
     }
     typing();
