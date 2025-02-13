@@ -114,6 +114,12 @@ div{
     transform: translateX(-150px);
 }
 
+#scrollDown{
+    position: fixed;
+    white-space: nowrap;
+    top: 80%;
+    left: 50%;
+}
 
 
 section, #home, #Work, #About, #experience{
@@ -154,10 +160,9 @@ section, #home, #Work, #About, #experience{
         transform: translatey(-35px);
     }
     #scrollDown{
-        position: fixed;
-        text-align: center;
+        position: fixed;;
         white-space: nowrap;
-        margin-top: 200px;
-        margin-left: -300px;
+        top: 80%;
+        left: 50%;
     }
   }
