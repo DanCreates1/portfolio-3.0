@@ -69,4 +69,4 @@ function typeWrite(element) {
     document.querySelectorAll(".type-text").forEach(typeWrite);
   });
 
-alert("!!This website has sound effects!!");
+//alert("!!This website has sound effects!!");

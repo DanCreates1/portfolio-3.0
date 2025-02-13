@@ -65,7 +65,7 @@ div{
     transform: translateY(-40px);
 }
 #pfp{
-    margin-left: 200px;
+    margin-left: 400px;
 }
 #pfp:hover{
     border: 1px solid;
@@ -106,7 +106,7 @@ div{
 }
 
 #ImDan{
-    transform: translateX(-250px);
+    transform: translateX(-350px);
 }
 #FullStack{
     white-space: nowrap;
