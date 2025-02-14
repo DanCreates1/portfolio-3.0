@@ -160,7 +160,9 @@ section, #home, #Work, #About, #experience{
         transform: translatey(-35px);
     }
     #scrollDown{
-        position: fixed;;
+        display: flex;
+        margin-left: -180px;
+        transform: translateY(390px);
         white-space: nowrap;
         
     }
