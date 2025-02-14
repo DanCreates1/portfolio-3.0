@@ -115,10 +115,10 @@ div{
 }
 
 #scrollDown{
-    position: fixed;
+    display: flex;
+    margin-left: -180px;
+    transform: translateY(390px);
     white-space: nowrap;
-    top: 80%;
-    left: 50%;
 }
 
 
@@ -162,7 +162,6 @@ section, #home, #Work, #About, #experience{
     #scrollDown{
         position: fixed;;
         white-space: nowrap;
-        top: 80%;
-        left: 50%;
+        
     }
   }
