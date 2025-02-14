@@ -65,14 +65,9 @@ div{
     transform: translateY(-40px);
 }
 #pfp{
-    margin-left: 400px;
+    margin-left: 500px;
+    margin-top: 110px;
 }
-#pfp:hover{
-    border: 1px solid;
-    border-radius: 50%;
-   
-}
-
 
 #darkmode-popup{
     position: fixed; 
