@@ -110,11 +110,9 @@ div{
 }
 
 #scrollDown{
-    
-    margin-left: -180px;
-    transform: translateY(390px);
     white-space: nowrap;
-    
+    transform: translateX(-350px);
+    margin-top: 50px;
 }
 
 
