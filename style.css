@@ -110,9 +110,9 @@ div{
 }
 
 #scrollDown{
+    display: flex;;
     white-space: nowrap;
-    transform: translateX(-350px);
-    margin-top: 50px;
+    transform: translatey(350px);
 }
 
 
