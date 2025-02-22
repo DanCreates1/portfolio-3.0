@@ -103,6 +103,7 @@ div{
 
 #ImDan{
     transform: translateX(-350px);
+    white-space: nowrap;
 }
 #FullStack{
     white-space: nowrap;
