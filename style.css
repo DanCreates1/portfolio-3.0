@@ -144,17 +144,22 @@ section, #home, #Work, #About, #experience{
         font-size: 20px;
     }
     #ImDan{
+        position:static;
         white-space: nowrap;
         font-size: 30px;
-        transform: translateX(-340px);
         margin-top: 10px;
-        margin-left: 70px;
+        margin-left: 30px;
     }
     #location{
         font-size: 15px;
         white-space: nowrap;
         transform: translateX(-30px);
         transform: translatey(-35px);
+    }
+    #FullStack{
+        white-space: nowrap;
+        margin-top: 50px;
+        margin-left: 60px;
     }
     #scrollDown{
         display: flex;
