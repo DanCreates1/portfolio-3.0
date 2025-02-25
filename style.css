@@ -158,8 +158,9 @@ section, #home, #Work, #About, #experience{
     }
     #FullStack{
         white-space: nowrap;
-        margin-top: 50px;
+        margin-top: 70px;
         margin-left: 60px;
+        transform: translateX(-140px);
     }
     #scrollDown{
         display: flex;
