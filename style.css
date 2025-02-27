@@ -151,10 +151,13 @@ section, #home, #Work, #About, #experience{
         margin-left: 30px;
     }
     #location{
+
         font-size: 15px;
-        white-space: nowrap;
-        transform: translateX(-30px);
-        transform: translatey(-35px);
+        white-space: nowrap;  
+        transform: translatey(20px);
+    }
+    #location{
+     transform: translateX(10px);
     }
     #FullStack{
         white-space: nowrap;
