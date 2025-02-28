@@ -164,9 +164,17 @@ section, #home, #Work, #About, #experience{
     }
     #scrollDown{
         display: flex;
-        margin-left: -180px;
-        transform: translateY(390px);
+        font-size: 30px;
+        margin-left: -80px;
+        position: relative;
+        margin-top: 300px;
         white-space: nowrap;
+        animation: upDown 2s infinite ease-in-out;
         
     }
+    @keyframes upDown {
+        0% { transform: translateY(0); }
+        50% { transform: translateY(-20px); } /* Move up */
+        100% { transform: translateY(0); }
+      }
   }
