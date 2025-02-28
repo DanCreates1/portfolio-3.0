@@ -112,11 +112,28 @@ div{
 }
 
 #scrollDown{
-    display: flex;;
+    display: flex;
+    font-size: 40px;
+    right: 16%;
     white-space: nowrap;
-    transform: translatey(350px);
-
+    position: relative; 
+    top: 400px;
+    animation: upDown 2s infinite ease-in-out;
 }
+
+
+
+
+
+
+
+
+
+@keyframes upDown {
+    0% { transform: translateY(0); }
+    50% { transform: translateY(-20px); } /* Move up */
+    100% { transform: translateY(0); }
+  }
 
 
 section, #home, #Work, #About, #experience{
