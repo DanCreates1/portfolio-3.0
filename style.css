@@ -151,7 +151,6 @@ section, #home, #Work, #About, #experience{
         margin-left: 30px;
     }
     #location{
-
         font-size: 15px;
         white-space: nowrap;  
         transform: translatey(20px);
@@ -161,7 +160,7 @@ section, #home, #Work, #About, #experience{
     }
     #FullStack{
         white-space: nowrap;
-        margin-top: 70px;
+        margin-top: 100px;
         margin-left: 60px;
         transform: translateX(-140px);
     }
