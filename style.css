@@ -181,10 +181,10 @@ section, #home, #Work, #About, #experience{
     }
     #scrollDown{
         display: flex;
-        font-size: 30px;
-        margin-left: -80px;
+        font-size: 80px;
+        margin-left: -130px;
         position: relative;
-        margin-top: 300px;
+        top: 360px;
         white-space: nowrap;
         animation: upDown 2s infinite ease-in-out;
         
