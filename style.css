@@ -102,12 +102,15 @@ div{
 }
 
 #ImDan{
-    transform: translateX(-350px);
+    position: relative;
+    right: 450px;
     white-space: nowrap;
 }
 #FullStack{
+    position: relative;
     white-space: nowrap;
-    margin-top: 50px;
+    top: 50px;
+    right: 130px;
     transform: translateX(-150px);
 }
 
