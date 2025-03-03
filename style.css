@@ -161,6 +161,7 @@ section, #home, #Work, #About, #experience{
     #popUp{
         font-size: 20px;
     }
+ 
     #ImDan{
         position:static;
         white-space: nowrap;
@@ -178,8 +179,8 @@ section, #home, #Work, #About, #experience{
     }
     #FullStack{
         white-space: nowrap;
-        margin-top: 100px;
-        margin-left: 60px;
+        top: 40px;
+        left: 60px;
         transform: translateX(-140px);
     }
     #scrollDown{
