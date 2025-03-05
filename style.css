@@ -175,7 +175,8 @@ section, #home, #Work, #About, #experience{
         transform: translatey(20px);
     }
     #location{
-     transform: translateX(10px);
+     position: relative;
+     bottom: 10px;
     }
     #FullStack{
         white-space: nowrap;
