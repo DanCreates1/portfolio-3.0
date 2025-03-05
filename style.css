@@ -179,8 +179,8 @@ section, #home, #Work, #About, #experience{
     }
     #FullStack{
         white-space: nowrap;
-        top: 40px;
-        left: 60px;
+        top: 60px;
+        left: 70px;
         transform: translateX(-140px);
     }
     #scrollDown{
