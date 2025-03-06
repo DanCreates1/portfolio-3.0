@@ -103,7 +103,7 @@ div{
 
 #ImDan{
     position: relative;
-    right: 450px;
+    right:550px;
     white-space: nowrap;
 }
 #FullStack{
@@ -124,6 +124,12 @@ div{
     animation: upDown 2s infinite ease-in-out;
 }
 
+#home > p{
+    position: relative;
+    text-align: center;
+    white-space: nowrap;
+    top: 300px;
+}
 
 
 
