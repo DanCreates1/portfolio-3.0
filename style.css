@@ -64,8 +64,9 @@ div{
     margin:20px;
     transform: translateY(-40px);
 }
+
 #pfp{
-    margin-left: 300px;
+    margin-left: 400px;
     margin-top: 110px;
 }
 
@@ -97,7 +98,7 @@ div{
     justify-content: center;
     align-items: center;
     margin-top: 200px;
-    font-size: 1.5rem;
+    font-size: 1.rem;
     white-space: nowrap;
 }
 
