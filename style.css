@@ -65,7 +65,7 @@ div{
     transform: translateY(-40px);
 }
 #pfp{
-    margin-left: 500px;
+    margin-left: 300px;
     margin-top: 110px;
 }
 
@@ -110,7 +110,7 @@ div{
     position: relative;
     white-space: nowrap;
     top: 50px;
-    right: 130px;
+    right: 200px;
     transform: translateX(-150px);
 }
 
