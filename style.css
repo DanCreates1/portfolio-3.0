@@ -170,7 +170,7 @@ section, #home, #Work, #About, #experience{
     }
     #pfp{
         width: 150px;
-        margin-left: 20px;        
+        margin-left: -40px;        
     }
     #popUp{
         font-size: 20px;
@@ -181,7 +181,7 @@ section, #home, #Work, #About, #experience{
         white-space: nowrap;
         font-size: 30px;
         top: 10px;
-        right: 250px;
+        right: 370px;
     }
     #location{
         font-size: 15px;
@@ -191,6 +191,7 @@ section, #home, #Work, #About, #experience{
     #location{
      position: relative;
      bottom: 10px;
+     left: 30px;
     }
     #FullStack{
         white-space: nowrap;
