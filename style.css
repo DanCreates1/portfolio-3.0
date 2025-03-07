@@ -191,19 +191,18 @@ section, #home, #Work, #About, #experience{
     #location{
      position: relative;
      bottom: 10px;
-     left: 30px;
+     left: 50px;
     }
     #FullStack{
         white-space: nowrap;
         top: 60px;
-        left: 70px;
+        right: 30%;
         transform: translateX(-140px);
     }
     #scrollDown{
         display: flex;
         font-size: 80px;
         right: 50%;
-        
         position: relative;
         top: 360px;
         white-space: nowrap;
