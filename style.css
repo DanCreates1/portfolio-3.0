@@ -202,7 +202,8 @@ section, #home, #Work, #About, #experience{
     #scrollDown{
         display: flex;
         font-size: 80px;
-        margin-left: -130px;
+        right: 50%;
+        
         position: relative;
         top: 360px;
         white-space: nowrap;
