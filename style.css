@@ -181,7 +181,7 @@ section, #home, #Work, #About, #experience{
         white-space: nowrap;
         font-size: 30px;
         top: 10px;
-        right: 370px;
+        right: 470px;
     }
     #location{
         font-size: 15px;
@@ -212,8 +212,8 @@ section, #home, #Work, #About, #experience{
 
     #home > button{
         position: relative;
-        left: -100px;
-        top:300px ;
+        left: -110px;
+        top: 260px ;
     }
     @keyframes upDown {
         0% { transform: translateY(0); }
