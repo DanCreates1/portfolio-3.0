@@ -209,6 +209,12 @@ section, #home, #Work, #About, #experience{
         animation: upDown 2s infinite ease-in-out;
         
     }
+
+    #home > button{
+        position: relative;
+        left: -100px;
+        top:300px ;
+    }
     @keyframes upDown {
         0% { transform: translateY(0); }
         50% { transform: translateY(-20px); } /* Move up */
