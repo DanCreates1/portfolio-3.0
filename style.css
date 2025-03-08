@@ -181,7 +181,7 @@ section, #home, #Work, #About, #experience{
         white-space: nowrap;
         font-size: 30px;
         top: 10px;
-        right: 470px;
+        right: 160%;
     }
     #location{
         font-size: 15px;
@@ -191,7 +191,7 @@ section, #home, #Work, #About, #experience{
     #location{
      position: relative;
      bottom: 10px;
-     left: 50px;
+     left: 23%;
     }
     #FullStack{
         white-space: nowrap;
