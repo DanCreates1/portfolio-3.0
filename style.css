@@ -209,7 +209,7 @@ section, #home, #Work, #About, #experience{
     }
     #theme-toggle{
         position: relative;
-        left: 0px;
+        left: 10px;
     }
 
     #home > button{
