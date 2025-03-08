@@ -187,22 +187,21 @@ section, #home, #Work, #About, #experience{
         font-size: 15px;
         white-space: nowrap;  
         transform: translatey(20px);
+        position: relative;
+        bottom: 10px;
+        left: 23%;
     }
-    #location{
-     position: relative;
-     bottom: 10px;
-     left: 23%;
-    }
+    
     #FullStack{
         white-space: nowrap;
         top: 60px;
-        right: 30%;
+        right: 34%;
         transform: translateX(-140px);
     }
     #scrollDown{
         display: flex;
         font-size: 80px;
-        right: 50%;
+        right: 78%;
         position: relative;
         top: 360px;
         white-space: nowrap;
