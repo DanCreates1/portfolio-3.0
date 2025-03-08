@@ -205,15 +205,20 @@ section, #home, #Work, #About, #experience{
         position: relative;
         top: 360px;
         white-space: nowrap;
-        animation: upDown 2s infinite ease-in-out;
-        
+        animation: upDown 2s infinite ease-in-out;   
+    }
+    #theme-toggle{
+        position: relative;
+        left: 0px;
     }
 
     #home > button{
         position: relative;
-        left: -110px;
-        top: 260px ;
+        left: -138px;
+        top: 280px ;
     }
+
+
     @keyframes upDown {
         0% { transform: translateY(0); }
         50% { transform: translateY(-20px); } /* Move up */
