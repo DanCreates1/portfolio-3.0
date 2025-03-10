@@ -30,11 +30,9 @@ body {
     overflow-x: hidden;
   }
 #navbar{
-
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 1%;
 }
 #navbar, ul{
     margin: 10px;
@@ -45,7 +43,7 @@ body {
     border-radius: 20px;
     margin:auto;
     margin-top: 25px;
-    width: 20%;
+    width: 22%;
     height: 30px;
     font-size: 1rem;
 }
@@ -223,7 +221,8 @@ section, #home, #Work, #About, #experience{
  }
  #home > button{
     position: relative;
-    ;
+    left: 0;
+    top: 0;
  }
 }
 
