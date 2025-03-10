@@ -102,11 +102,10 @@ div{
 
 #ImDan{
     position: relative;
-    
     white-space: nowrap;
-    transform: translate(60px);
     font-size: 40px;
 }
+
 #FullStack{
     position: relative;
     white-space: nowrap;
@@ -160,7 +159,6 @@ section, #home, #Work, #About, #experience{
     position: relative;
 }
 
-
 #scrollDown {
     display: flex;
     font-size: 80px;
@@ -182,7 +180,7 @@ section, #home, #Work, #About, #experience{
 /* ----------- Responsive Design ----------- */
 
 
-@media screen and (min-width: 320px; max-width: 480px) {
+@media screen and (max-width: 480px) {
     /* Adjust for common phones */
  body{
     width: 100%;
@@ -200,6 +198,10 @@ section, #home, #Work, #About, #experience{
     margin-top: 25px;
     width: 50%;
     height: 30px;
+}
+
+#ImDan{
+    
 }
  
  #pfp{
