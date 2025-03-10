@@ -133,19 +133,13 @@ div{
 }
 
 #home > button{
-    position: relative;
-    text-align: center;
+    position: fixed;
+    left: 50%;
+    top: 50%;
     white-space: nowrap;
-    bottom: 100px;
-    left: 300px;
     font-size: 20px;
     font-weight: bold
 }
-
-
-
-
-
 
 
 
@@ -203,16 +197,7 @@ section, #home, #Work, #About, #experience{
     animation: upDown 2s infinite ease-in-out;
 }
 
-#theme-toggle {
-    position: relative;
-}
 
-#home > button {
-    text-align: center;
-    display: block;
-    margin: 30px auto;
-    
-}
 
 /* Animation */
 @keyframes upDown {
@@ -221,9 +206,9 @@ section, #home, #Work, #About, #experience{
     100% { transform: translateY(0); }
 }
 
+
+
 /* ----------- Responsive Design ----------- */
-
-
 
 
 @media screen and (max-width: 480px) {
