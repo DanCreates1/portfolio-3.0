@@ -152,14 +152,6 @@ section, #home, #Work, #About, #experience{
   
   /* For medium phones */
  /* Default Styles (for desktops and large screens) */
-#navbar {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 100%;
-    height: 50px;
-    padding: 0 10px;
-}
 
 #pfp {
     width: 180px;
@@ -178,9 +170,6 @@ section, #home, #Work, #About, #experience{
     position: relative;
 }
 
-#FullStack {
-    position: relative;
-}
 
 #scrollDown {
     display: flex;
