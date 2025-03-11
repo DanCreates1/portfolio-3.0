@@ -122,13 +122,12 @@ div{
     right: 16%;
     white-space: nowrap;
     position: relative; 
-    
+    top: 4.3em;
     animation: upDown 2s infinite ease-in-out;
 }
 
 #home > button{
-    text-align: center;
-    align-items: center;
+    
     white-space: nowrap;
     font-size: 20px;
     font-weight: bold
