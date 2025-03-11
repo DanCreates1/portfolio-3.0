@@ -99,7 +99,6 @@ div{
     justify-content: center;
     align-items: center;
     margin-top: 200px;
-    font-size: 1.rem;
     white-space: nowrap;
     transform: translate(60px);
 }
@@ -116,7 +115,7 @@ div{
     position: relative;
     white-space: nowrap;
     top: 50px;
-    right: 200px;
+    right: 300px;
     transform: translateX(-90px);
     
 }
@@ -135,6 +134,9 @@ div{
     white-space: nowrap;
     font-size: 20px;
     font-weight: bold
+}
+#ImDan, #FullStack, #location{
+    transform: translateY(-50px);
 }
 
 
