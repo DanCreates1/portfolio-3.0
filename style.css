@@ -90,6 +90,10 @@ div{
     pointer-events: none;
 }
 
+#home{
+    transform: translate(34% ,20%);
+}
+
 #location{
     display: fixed;
     justify-content: center;
@@ -127,13 +131,10 @@ div{
 }
 
 #home > button{
-    
+    transform: translate(140px);
     white-space: nowrap;
     font-size: 20px;
     font-weight: bold
-}
-#home{
-    transform: translate(34% ,20%);
 }
 
 
