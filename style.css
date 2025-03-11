@@ -118,12 +118,11 @@ div{
 }
 
 #scrollDown{
-    display: flex;
     font-size: 40px;
     right: 16%;
     white-space: nowrap;
     position: relative; 
-    top: 400px;
+    
     animation: upDown 2s infinite ease-in-out;
 }
 
@@ -137,7 +136,6 @@ div{
 #home{
     transform: translate(34% ,20%);
 }
-
 
 
 @keyframes upDown {
