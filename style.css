@@ -100,7 +100,7 @@ div{
     align-items: center;
     margin-top: 200px;
     white-space: nowrap;
-    transform: translate(60px);
+    left: 30px;
 }
 
 #ImDan{
@@ -108,7 +108,6 @@ div{
     white-space: nowrap;
     font-size: 40px;
     right: 490px;
-    
 }
 
 #FullStack{
