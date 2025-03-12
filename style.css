@@ -29,10 +29,16 @@ body {
     max-width: 100vw;
     overflow-x: hidden;
   }
-#navbar{
-    display: flex;
+.navbar-container{
+    display: block;
     justify-content: center;
-    align-items: center;
+}
+#navbar{
+  position: sticky;
+  top: 0;
+  background: black;
+  padding: 10px;
+  z-index: 1000;
 }
 #navbar, ul{
     margin: 10px;
@@ -99,8 +105,9 @@ div{
     justify-content: center;
     align-items: center;
     margin-top: 200px;
+    font-size: 1.rem;
     white-space: nowrap;
-    left: 50px;
+    transform: translate(60px);
 }
 
 #ImDan{
@@ -108,13 +115,14 @@ div{
     white-space: nowrap;
     font-size: 40px;
     right: 490px;
+    
 }
 
 #FullStack{
     position: relative;
     white-space: nowrap;
     top: 50px;
-    right: 300px;
+    right: 200px;
     transform: translateX(-90px);
     
 }
@@ -133,9 +141,6 @@ div{
     white-space: nowrap;
     font-size: 20px;
     font-weight: bold
-}
-#ImDan, #FullStack, #location{
-    transform: translateY(-50px);
 }
 
 
