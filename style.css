@@ -87,7 +87,7 @@ div{
 }
 #darkmode-popup.light{
     position: fixed; 
-    bottom: 20px;    
+    bottom: 30px;    
     right: 20px;   
     opacity: 0;
     transition: opacity 0.4s ease-in-out, transform 0.4s ease-in-out;
@@ -98,11 +98,16 @@ div{
     transform: translate(34% ,20%);
 }
 
+#pfp{
+    position: relative;
+    margin-top: 20px;
+}
+
 #location{
     display: fixed;
     justify-content: center;
     align-items: center;
-    margin-top: 200px;
+    margin-top: 150px;
     font-size: 1rem;
     white-space: nowrap;
     transform: translate(60px);
@@ -113,13 +118,13 @@ div{
     white-space: nowrap;
     font-size: 40px;
     right: 490px;
-    bottom: 40px;
+    bottom: 50px;
 }
 
 #FullStack{
     position: relative;
     white-space: nowrap;
-    top: 30px;
+    top: 20px;
     right: 200px;
     transform: translateX(-90px);
     
