@@ -71,8 +71,6 @@ div{
     transform: translateY(-40px);
 }
 
-
-
 #darkmode-popup{
     position: fixed; 
     bottom: 20px;    
@@ -105,7 +103,7 @@ div{
     justify-content: center;
     align-items: center;
     margin-top: 200px;
-    font-size: 1.rem;
+    font-size: 1rem;
     white-space: nowrap;
     transform: translate(60px);
 }
@@ -115,13 +113,13 @@ div{
     white-space: nowrap;
     font-size: 40px;
     right: 490px;
-    
+    bottom: 40px;
 }
 
 #FullStack{
     position: relative;
     white-space: nowrap;
-    top: 50px;
+    top: 30px;
     right: 200px;
     transform: translateX(-90px);
     
@@ -129,7 +127,7 @@ div{
 
 #scrollDown{
     font-size: 40px;
-    right: 16%;
+    right: 19%;
     white-space: nowrap;
     position: relative; 
     top: 4.3em;
@@ -209,9 +207,6 @@ section, #home, #Work, #About, #experience{
     height: 30px;
 }
 
-#ImDan{
-    
-}
  
  #pfp{
     position: relative;
