@@ -21,6 +21,9 @@
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
 }
+section{
+    height: 100vh;
+}
 body {
     background-color: var(--bg-color);
     color: var(--text-color);
@@ -146,6 +149,11 @@ div{
     font-weight: bold
 }
 
+
+/* work section style 👇*/
+#work h1{
+    color: aqua;
+}
 
 @keyframes upDown {
     0% { transform: translateY(0); }
