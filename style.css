@@ -22,7 +22,12 @@
     font-family: 'Poppins', sans-serif;
 }
 section{
-    height: 100vh;
+    height: 100%;
+    min-height: 45vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;   
 }
 body {
     background-color: var(--bg-color);
