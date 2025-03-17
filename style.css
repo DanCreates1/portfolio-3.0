@@ -126,11 +126,11 @@ div{
 }
 
 #ImDan{
-    position: relative;
+    position: fixed;
     white-space: nowrap;
     font-size: 40px;
     right: 490px;
-    bottom: 50px;
+    bottom: 150px;
 }
 
 #FullStack{
