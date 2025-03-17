@@ -106,7 +106,7 @@ div{
     pointer-events: none;
 }
 
-#home{
+.home{
     transform: translate(34% ,20%);
 }
 
@@ -234,7 +234,7 @@ section, #home, #Work, #About, #experience{
     position: relative;
     right: 30px;
  }
- #home > button{
+ .home > button{
     position: relative;
     left: 0;
     top: 0;
