@@ -110,7 +110,6 @@ div{
     transform: translate(4% ,20%);
     
 }
-
 #pfp{
     position: relative;
     margin-top: 20px;
@@ -127,10 +126,11 @@ div{
 }
 
 #ImDan{
-    position: fixed;
+    display:block;
+    position: relative;
     white-space: nowrap;
     font-size: 40px;
-    right: 490px;
+    right: 590px;
     bottom: 150px;
 }
 
