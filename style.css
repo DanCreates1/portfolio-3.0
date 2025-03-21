@@ -165,6 +165,10 @@ section, #home, #Work, #About, #experience{
     align-items: center;
 }
 
+#work {
+    margin-top: 300px; /* Adjust this value as needed */
+}
+
   
   /* For medium phones */
  /* Default Styles (for desktops and large screens) */
