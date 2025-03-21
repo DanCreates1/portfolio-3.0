@@ -14,9 +14,6 @@
         color: white;
         background-color: transparent;
     }
-    #navbar, a{
-        color: white;
-    }
 }
 *{
     margin: 0;
@@ -24,19 +21,7 @@
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
 }
-section{
-    height: 100%;
-    min-height: 45vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: white;  
-   
-    width: 100%; /* Makes sure each section takes full width */
-    min-height: 100vh; /* Adjust height based on content */
-}
 body {
-    min-height: 200vh; 
     background-color: var(--bg-color);
     color: var(--text-color);
     transition: background-color 0.3s, color 0.3s;
@@ -60,15 +45,12 @@ body {
     display: flex;
     list-style: none;
     gap: 50px;
-    border: 2px solid rgb(0, 0, 0);
+    border: 2px solid black;
     border-radius: 20px;
     margin:auto;
     margin-top: 25px;
     width: 22%;
     height: 30px;
-}
-#navbar,a{
-    text-decoration: none;
 }
 #navbar, ul, li{
     display: flex;
@@ -112,10 +94,10 @@ div{
     pointer-events: none;
 }
 
-.home{
-    transform: translate(4% ,20%);
-    
+#home{
+    transform: translate(34% ,20%);
 }
+
 #pfp{
     position: relative;
     margin-top: 20px;
@@ -132,12 +114,11 @@ div{
 }
 
 #ImDan{
-    display:block;
     position: relative;
     white-space: nowrap;
     font-size: 40px;
-    right: 590px;
-    bottom: 150px;
+    right: 490px;
+    bottom: 50px;
 }
 
 #FullStack{
@@ -165,11 +146,6 @@ div{
     font-weight: bold
 }
 
-
-/* work section style 👇*/
-#work h1{
-    color: aqua;
-}
 
 @keyframes upDown {
     0% { transform: translateY(0); }
@@ -235,16 +211,29 @@ section, #home, #Work, #About, #experience{
     width: 50%;
     height: 30px;
 }
+
+ 
  #pfp{
-    position: fixed;
- }
- .home > button{
     position: relative;
-    left: 10;
-    top: 10;
+    right: 30px;
+ }
+ #home > button{
+    position: relative;
+    left: 0;
+    top: 0;
  }
 }
 
+.type-text-container {
+    display: inline-block;
+    width: 8ch; /* Reserve space for the text */
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.type-text {
+    display: inline-block;
+}
 
 @media screen and (max-width: 768px) {
     /* Adjust for common phones and small tablets */
