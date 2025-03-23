@@ -30,8 +30,8 @@ toggleButton.addEventListener('click', () => {
         theme = 'dark';
         IconMoon.style.display = 'none';
         IconSun.style.display = 'inline';
-        ThemeModeSound.play();
-        navigator.vibrate(500); 
+                                            //ThemeModeSound.play();    TURN on later
+                                            //navigator.vibrate(500);   TURN on later
     }
     else{
         theme = 'light';

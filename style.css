@@ -33,8 +33,9 @@ body {
     max-width: 100vw;
     overflow-x: hidden;
   }
+  
 .navbar-container{
-    display: block;
+    display: flex;
     justify-content: center;
 }
 #navbar{
@@ -43,23 +44,7 @@ body {
   background: black;
   padding: 10px;
   z-index: 1000;
-}
-#navbar, ul{
-    margin: 10px;
-    display: flex;
-    list-style: none;
-    gap: 50px;
-    border: 2px solid black;
-    border-radius: 20px;
-    margin:auto;
-    margin-top: 25px;
-    width: 22%;
-    height: 30px;
-}
-#navbar, ul, li{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  
 }
 button{
   background-color: transparent;
@@ -207,19 +192,9 @@ section, #home, #Work, #About, #experience{
     max-width: 100vw;
     overflow-x: hidden;
  }  
- #navbar, ul{
-    margin: 10px;
-    display: flex;
-    list-style: none;
-    gap: 50px;
-    border: 2px solid black;
-    border-radius: 20px;
-    margin:auto;
-    margin-top: 25px;
-    width: 50%;
-    height: 30px;
+ #navbar{
+   
 }
-
  
  #pfp{
     position: relative;
