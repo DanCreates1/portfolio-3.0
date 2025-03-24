@@ -55,9 +55,7 @@ div{
     padding: 0;
 }
 #theme-toggle{
-    float: right;
-    margin:20px;
-    transform: translateY(-40px);
+    float: right; 
 }
 
 #darkmode-popup{
