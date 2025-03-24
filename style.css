@@ -37,6 +37,7 @@ body {
 .navbar-container{
     display: flex;
     justify-content: center;
+    gap: 10px;
 }
 #navbar{
   position: sticky;
