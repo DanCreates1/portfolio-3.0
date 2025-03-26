@@ -80,7 +80,7 @@ div{
     pointer-events: none;
 }
 
-#home{
+.home{
     transform: translate(34% ,20%);
 }
 
@@ -125,7 +125,7 @@ div{
     animation: upDown 2s infinite ease-in-out;
 }
 
-#home > button{
+.home > button{
     transform: translate(-780px, -230px);
     white-space: nowrap;
     font-size: 20px;
@@ -140,7 +140,7 @@ div{
   }
 
 
-section, #home, #Work, #About, #experience{
+section, .home, #Work, #About, #experience{
     height: 100%;
     min-height: 45vh;
     display: flex;
@@ -200,6 +200,8 @@ section, #home, #Work, #About, #experience{
   gap: 10px;
   z-index: 1000;
 }
+
+.home
  
  #pfp{
     position: relative;
@@ -219,7 +221,7 @@ section, #home, #Work, #About, #experience{
 #ImDan{
     position: relative;
     white-space: nowrap;
-    font-size: 40px;
+    font-size: 30px;
     right: 490px;
     bottom: 50px;
 }
