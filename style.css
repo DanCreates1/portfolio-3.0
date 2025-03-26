@@ -189,13 +189,22 @@ section, #home, #Work, #About, #experience{
     max-width: 100vw;
     overflow-x: hidden;
  }  
- #navbar{
-   
+ .navbar-container{
+    display: flex;
+    justify-content: center;
+}
+#navBar{
+  display: flex;
+  margin-top: 30px;
+  position: sticky;
+  gap: 10px;
+  z-index: 1000;
 }
  
  #pfp{
     position: relative;
     right: 30px;
+    
  }
  #home > button{
     position: relative;
