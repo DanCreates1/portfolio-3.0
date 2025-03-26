@@ -107,7 +107,7 @@ div{
     bottom: 50px;
 }
 
-#FullStack{
+#Front{
     position: relative;
     white-space: nowrap;
     top: 20px;
@@ -201,7 +201,10 @@ section, .home, #Work, #About, #experience{
   z-index: 1000;
 }
 
-.home
+.home{
+    transform: translate(34% ,30%);
+    display: flex;
+}
  
  #pfp{
     position: relative;
@@ -215,22 +218,22 @@ section, .home, #Work, #About, #experience{
     margin-top: 150px;
     font-size: 16px;
     white-space: nowrap;
-    transform: translate(-160px);
+    transform: translate(-90px);
 }
 
 #ImDan{
     position: relative;
     white-space: nowrap;
     font-size: 30px;
-    right: 490px;
     bottom: 50px;
+    transform: translate(-90px);
 }
 
-#FullStack{
+#Front{
     position: relative;
     white-space: nowrap;
     top: 20px;
-    right: 200px;
+    right: 300px;
     transform: translateX(-90px);
     
 }
