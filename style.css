@@ -203,9 +203,36 @@ section, #home, #Work, #About, #experience{
  
  #pfp{
     position: relative;
-    right: 30px;
-    
+    right: 87px;
+    width: 130px;
  }
+ #location{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 150px;
+    font-size: 16px;
+    white-space: nowrap;
+    transform: translate(-160px);
+}
+
+#ImDan{
+    position: relative;
+    white-space: nowrap;
+    font-size: 40px;
+    right: 490px;
+    bottom: 50px;
+}
+
+#FullStack{
+    position: relative;
+    white-space: nowrap;
+    top: 20px;
+    right: 200px;
+    transform: translateX(-90px);
+    
+}
+
  #home > button{
     position: relative;
     left: 0;
@@ -215,7 +242,7 @@ section, #home, #Work, #About, #experience{
 
 .type-text-container {
     display: inline-block;
-    width: 8ch; /* Reserve space for the text */
+    width: 8ch;
     overflow: hidden;
     white-space: nowrap;
 }
