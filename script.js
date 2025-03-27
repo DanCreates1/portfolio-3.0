@@ -39,6 +39,12 @@ toggleButton.addEventListener('click', () => {
         IconSun.style.display = 'none';
     }
     
+    // Update navbar link colors dynamically
+    const navLinks = document.querySelectorAll('#navBar > a');
+    navLinks.forEach(link => {
+        link.style.color = getComputedStyle(document.documentElement).getPropertyValue('--text-color');
+    });
+
     //dark mode pop up notif
     if(theme == 'dark'){
         darkModePopUp.classList.add("show")

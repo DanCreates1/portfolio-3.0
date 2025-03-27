@@ -1,23 +1,22 @@
 :root {
-    --bg-color: #ffffff;
-    --text-color: #000000;
-  }
-  
-  .dark-theme, #navbar{
-    --bg-color: #121212;
-    --text-color: #ffffff;
-    #navbar, ul{
-        border: 2px solid white;
-        background-color: transparent;
-    }
-    #nabar, button{
-        color: white;
-        background-color: transparent;
-    }
-    #navbar , a{
-        text-decoration: none;
-        color: rgb(255, 255, 255);
-    }
+     --bg-color: #ffffff;
+     --text-color: #000000;
+   }
+ 
+   .dark-theme, #navbar{
+     --bg-color: #121212;
+     --text-color: #ffffff;
+     #navbar, ul{
+         border: 2px solid white;
+         background-color: transparent;
+     }
+     #nabar, button{
+         color: white;
+         background-color: transparent;
+     }
+ }
+.dark-theme #navBar > a {
+    color: var(--text-color); /* Ensure dark theme uses the correct text color */
 }
 *{
     margin: 0;
