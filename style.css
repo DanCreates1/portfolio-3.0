@@ -196,6 +196,7 @@ section, .home, #Work, #About, #experience{
     overflow-x: hidden;
  }  
  .navbar-container{
+    position: sticky;
     display: flex;
     justify-content: center;
 }
