@@ -128,7 +128,9 @@ div{
     font-size: 20px;
     font-weight: bold
 }
-
+#navBar-navBar{
+    color: white;
+}
 
 @keyframes upDown {
     0% { transform: translateY(0); }
