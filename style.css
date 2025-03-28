@@ -3,36 +3,33 @@
      --text-color: #000000;
    }
  
-   .dark-theme, #navbar{
+   .dark-theme{
      --bg-color: #121212;
      --text-color: #ffffff;
-     #navbar, ul{
-         border: 2px solid white;
-         background-color: transparent;
-     }
-     #nabar, button{
+       button{
          color: white;
          background-color: transparent;
      }
- }
-.dark-theme #navBar > a {
-    color: var(--text-color); /* Ensure dark theme uses the correct text color */
-}
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Poppins', sans-serif;
-}
-body {
-    background-color: var(--bg-color);
-    color: var(--text-color);
-    transition: background-color 0.3s, color 0.3s;
-    width: 100%;
-    max-width: 100vw;
-    overflow-x: hidden;
-  }
-  
+    }
+    .dark-theme #navBar > a {
+        color: var(--text-color); 
+        text-decoration: none;
+    }
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: 'Poppins', sans-serif;
+    }
+    body {
+        background-color: var(--bg-color);
+        color: var(--text-color);
+        transition: background-color 0.3s, color 0.3s;
+        width: 100%;
+        max-width: 100vw;
+        overflow-x: hidden;
+    }
+
 .navbar-container{
     display: flex;
     justify-content: center;
@@ -44,6 +41,7 @@ body {
   gap: 30px;
   z-index: 1000;
 }
+
 button{
   background-color: transparent;
   border: none;
