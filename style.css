@@ -37,24 +37,30 @@
   display: flex;
   margin-top: 30px;
   position: sticky;
-  gap: 30px;
   z-index: 1000;
+}
+#navBar > ul{
+    display: flex;
+    gap: 30px;
 }
 #navBar > ul > a{
     text-decoration: none;
     color: var(--text-color);
 }
 
-button{
+#navBar > button{
   background-color: transparent;
   border: none;
+  
 }
+
 div{
     margin: 0;
     padding: 0;
 }
 #theme-toggle{
-    float: right; 
+    position: fixed;
+    right: -40%;
 }
 
 #darkmode-popup{
@@ -234,8 +240,12 @@ section, .home, #Work, #About, #experience{
     white-space: nowrap;
     top: 20px;
     right: 310px;
-    transform: translateX(-90px);
-    
+    transform: translateX(-90px);   
+}
+
+#scrollDown{
+    display: flex;
+    text-align: center;
 }
 
  #home > button{
@@ -243,9 +253,8 @@ section, .home, #Work, #About, #experience{
     left: 0;
     top: 0;
  }
-}
 
-.type-text-container {
+ .type-text-container {
     display: inline-block;
     width: 8ch;
     overflow: hidden;
@@ -255,6 +264,9 @@ section, .home, #Work, #About, #experience{
 .type-text {
     display: inline-block;
 }
+}
+
+
 
 @media screen and (max-width: 768px) {
     /* Adjust for common phones and small tablets */
