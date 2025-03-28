@@ -51,7 +51,9 @@
 #navBar > button{
   background-color: transparent;
   border: none;
-  
+}
+.home > button{
+    background-color: transparent;
 }
 
 div{
