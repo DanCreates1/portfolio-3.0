@@ -117,23 +117,22 @@ div{
     bottom: 50px;
 }
 
-#Front{
+#scrollDown {
+    display: flex;
+    top: 50vh;
+    font-size: 80px;
     position: relative;
-    white-space: nowrap;
-    top: 20px;
-    right: 200px;
-    transform: translateX(-90px);
+    animation: upDown 2s infinite ease-in-out;
     
 }
-
-#scrollDown{
-    font-size: 40px;
-    right: 19%;
+.home > #Front{
+    display: flex;
     white-space: nowrap;
-    position: relative; 
-    top: 4.3em;
-    animation: upDown 2s infinite ease-in-out;
+    margin-top: -1vh;
+    margin-right: 10px
 }
+
+
 
 .home > button{
     transform: translate(-780px, -230px);
@@ -171,12 +170,6 @@ section, .home, #Work, #About, #experience{
     position: relative;
 }
 
-#scrollDown {
-    display: flex;
-    font-size: 80px;
-    position: relative;
-    animation: upDown 2s infinite ease-in-out;
-}
 
 
 
