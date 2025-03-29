@@ -1,5 +1,5 @@
 :root {
-     --bg-color: #ffffff;
+     --bg-color: #F8F8FF;
      --text-color: #000000;
    }
  
@@ -54,6 +54,7 @@
 }
 .home > button{
     background-color: transparent;
+    
 }
 
 div{
@@ -248,7 +249,7 @@ section, .home, #Work, #About, #experience{
 
 #scrollDown{
     display: flex;
-    text-align: center;
+    
 }
 
  #home > button{
