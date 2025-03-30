@@ -232,7 +232,8 @@ section, .home, #Work, #About, #experience{
 }
 
 #Front{
-    right: 80vw;
+    font-size: 3vw;
+    right: 60vw;
 }
 
 #scrollDown{
