@@ -232,13 +232,12 @@ section, .home, #Work, #About, #experience{
 }
 
 #Front{
-    font-size: 3vw;
+    font-size: 5vw;
     right: 60vw;
 }
 
 #scrollDown{
     display: flex;
-    
 }
 
  #home > button{
