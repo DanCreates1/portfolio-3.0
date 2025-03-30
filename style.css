@@ -133,14 +133,12 @@ div{
 }
 
 
-
 .home > button{
     transform: translate(-780px, -230px);
     white-space: nowrap;
     font-size: 20px;
     font-weight: bold
 }
-
 
 @keyframes upDown {
     0% { transform: translateY(0); }
@@ -230,15 +228,11 @@ section, .home, #Work, #About, #experience{
     white-space: nowrap;
     font-size: 30px;
     bottom: 50px;
-    transform: translate(-90px);
+    transform: translate(-80px);
 }
 
 #Front{
-    position: relative;
-    white-space: nowrap;
-    top: 20px;
-    right: 310px;
-    transform: translateX(-90px);   
+    right: 80vw;
 }
 
 #scrollDown{
@@ -268,6 +262,15 @@ section, .home, #Work, #About, #experience{
 
 @media screen and (max-width: 768px) {
     /* Adjust for common phones and small tablets */
+    #ImDan{
+        top: 10px;
+    }
+    #Front{
+        position: relative;
+        white-space: nowrap;
+        top: 20px;
+        transform: translateX(-32vw);  
+    }
 }
 
 

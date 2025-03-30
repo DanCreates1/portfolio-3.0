@@ -3,7 +3,7 @@
     add easter eggs and whene ever someone finds them give them point
     
     use spotify API to get the latest song that you have listined to 
- 
+ */
 let theme = 'dark';
 const toggleButton = document.getElementById('theme-toggle');
 const currentTheme = localStorage.getItem('theme');
@@ -78,4 +78,4 @@ document.addEventListener("DOMContentLoaded", function () {
     });
 });
 
-//alert("!!This website has sound effects!!");/*
+//alert("!!This website has sound effects!!");
