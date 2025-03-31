@@ -238,12 +238,12 @@ section, .home, #Work, #About, #experience{
     white-space: nowrap;
     font-size: 30px;
     bottom: 50px;
-    transform: translate(-80px);
+    transform: translate(-50px);
 }
 
 #Front{
     font-size: 5vw;
-    right: 60vw;
+    right: 70vw;
 }
 
 #scrollDown{
