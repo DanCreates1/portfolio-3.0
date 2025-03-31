@@ -15,7 +15,6 @@
         color: var(--text-color); 
     }
     *{
-        box-sizing: border-box;  
         outline: 1px solid red;
         margin: 0;
         padding: 0;
@@ -32,15 +31,13 @@
         overflow-x: hidden;
     }
 
-    html, body {
-        overflow-x: hidden;
-        margin: 0;
-        padding: 0;
-        width: 100%;
-        max-width: 100vw;
-    }
-    
-
+html, body {
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    max-width: 100vw;
+}
 
 .navbar-container{
     display: flex;
@@ -203,17 +200,6 @@ section, .home, #Work, #About, #experience{
     max-width: 100vw;
     overflow-x: hidden;
  }  
-
- .home {
-    transform: translate(0, 20%);
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
-}
-
-
  .navbar-container{
     position: sticky;
     display: flex;
