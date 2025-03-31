@@ -91,16 +91,8 @@ div{
     pointer-events: none;
 }
 
-.home {
-    width: 100%; /* Ensure the container spans the full width of the viewport */
-    max-width: 100vw; /* Prevent it from exceeding the viewport width */
-    transform: translate(0, 20%); /* Adjust positioning */
-    display: flex;
-    flex-direction: column; /* Stack elements vertically */
-    align-items: center; /* Center elements horizontally */
-    overflow: hidden; /* Prevent any overflow */
-    padding: 20px; /* Add padding for spacing */
-    box-sizing: border-box; /* Include padding in width/height calculations */
+.home{
+    transform: translate(34% ,20%);
 }
 
 #pfp{
