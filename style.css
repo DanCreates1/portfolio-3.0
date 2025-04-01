@@ -115,14 +115,14 @@ div{
     margin-top: 150px;
     font-size: 1rem;
     white-space: nowrap;
-    transform: translate(60px);
+    transform: translate(29px);
 }
 
 #ImDan{
     position: relative;
     white-space: nowrap;
     font-size: 40px;
-    right: 490px;
+    right: 440px;
 }
 
 #scrollDown {
@@ -142,7 +142,10 @@ div{
 
 
 .home > button{
-    //*work on this part later*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
 }
 
 @keyframes upDown {
