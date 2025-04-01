@@ -123,7 +123,6 @@ div{
     white-space: nowrap;
     font-size: 40px;
     right: 490px;
-    bottom: 50px;
 }
 
 #scrollDown {
@@ -143,10 +142,7 @@ div{
 
 
 .home > button{
-    transform: translate(-780px, -230px);
-    white-space: nowrap;
-    font-size: 20px;
-    font-weight: bold
+    //*work on this part later*/
 }
 
 @keyframes upDown {
