@@ -1,179 +1,178 @@
 :root {
-     --bg-color: #F8F8FF;
-     --text-color: #000000;
+    --bg-color: #F8F8FF;
+    --text-color: #000000;
+  }
+
+  .dark-theme{
+    --bg-color: #121212;
+    --text-color: #ffffff;
+      button{
+        color: white;
+        background-color: transparent;
+    }
    }
- 
-   .dark-theme{
-     --bg-color: #121212;
-     --text-color: #ffffff;
-       button{
-         color: white;
-         background-color: transparent;
-     }
-    }
-    .dark-theme #navBar > ul > a {
-        color: var(--text-color); 
-    }
-    *{
-        outline: 1px solid red;
-        margin: 0;
-        padding: 0;
-        box-sizing: border-box;
-        font-family: 'Poppins', sans-serif;
-        scroll-behavior: smooth;
-    }
-    body {
-        background-color: var(--bg-color);
-        color: var(--text-color);
-        transition: background-color 0.3s, color 0.3s;
-        width: 100%;
-        max-width: 100vw;
-        overflow-x: hidden;
-    }
+   .dark-theme #navBar > ul > a {
+       color: var(--text-color); 
+   }
+   *{
+       outline: 1px solid red;
+       margin: 0;
+       padding: 0;
+       box-sizing: border-box;
+       font-family: 'Poppins', sans-serif;
+       scroll-behavior: smooth;
+   }
+   body {
+       background-color: var(--bg-color);
+       color: var(--text-color);
+       transition: background-color 0.3s, color 0.3s;
+       width: 100%;
+       max-width: 100vw;
+       overflow-x: hidden;
+   }
 
 html, body {
-    overflow-x: hidden;
-    margin: 0;
-    padding: 0;
-    width: 100%;
-    max-width: 100vw;
+   overflow-x: hidden;
+   margin: 0;
+   padding: 0;
+   width: 100%;
+   max-width: 100vw;
 }
 
 .navbar-container{
-    display: flex;
-    justify-content: center;
+   display: flex;
+   justify-content: center;
 }
 #navBar{
-  display: flex;
-  margin-top: 30px;
-  position: sticky;
-  z-index: 1000;
+ display: flex;
+ margin-top: 30px;
+ position: sticky;
+ z-index: 1000;
 }
 #navBar > ul{
-    display: flex;
-    gap: 30px;
+   display: flex;
+   gap: 30px;
 }
 #navBar > ul > a{
-    text-decoration: none;
-    color: var(--text-color);
+   text-decoration: none;
+   color: var(--text-color);
 }
 
 #navBar > button{
-  background-color: transparent;
-  border: none;
+ background-color: transparent;
+ border: none;
 }
 .home > button{
-    background-color: transparent;
-    
+   background-color: transparent;
+   
 }
 
 div{
-    margin: 0;
-    padding: 0;
+   margin: 0;
+   padding: 0;
 }
 #theme-toggle{
-    position: fixed;
-    right: -40%;
+   position: fixed;
+   right: -40%;
 }
 
 #darkmode-popup{
-    position: fixed; 
-    bottom: 20px;    
-    right: 20px;   
-    opacity: 0;
-    transition: opacity 0.4s ease-in-out, transform 0.4s ease-in-out;
-    pointer-events: none;
+   position: fixed; 
+   bottom: 20px;    
+   right: 20px;   
+   opacity: 0;
+   transition: opacity 0.4s ease-in-out, transform 0.4s ease-in-out;
+   pointer-events: none;
 }
 
 #darkmode-popup.show{
-    opacity: 1;  
-    pointer-events: auto;
-    transform: translateY(0);
+   opacity: 1;  
+   pointer-events: auto;
+   transform: translateY(0);
 }
 #darkmode-popup.light{
-    position: fixed; 
-    bottom: 30px;    
-    right: 20px;   
-    opacity: 0;
-    transition: opacity 0.4s ease-in-out, transform 0.4s ease-in-out;
-    pointer-events: none;
+   position: fixed; 
+   bottom: 30px;    
+   right: 20px;   
+   opacity: 0;
+   transition: opacity 0.4s ease-in-out, transform 0.4s ease-in-out;
+   pointer-events: none;
 }
 
 .home{
-    transform: translate(34% ,20%);
+   transform: translate(34% ,20%);
 }
 
 #pfp{
-    position: relative;
-    margin-top: 20px;
+   position: relative;
+   margin-top: 20px;
 }
 
 #location{
-    display: fixed;
-    justify-content: center;
-    align-items: center;
-    margin-top: 150px;
-    font-size: 1rem;
-    white-space: nowrap;
-    transform: translate(29px);
+   display: fixed;
+   justify-content: center;
+   align-items: center;
+   margin-top: 150px;
+   font-size: 1rem;
+   white-space: nowrap;
+   transform: translate(29px);
 }
 
 #ImDan{
-    position: relative;
-    white-space: nowrap;
-    font-size: 40px;
-    right: 440px;
+   position: relative;
+   white-space: nowrap;
+   font-size: 40px;
+   right: 440px;
 }
 
 #scrollDown {
-    display: flex;
-    top: 50vh;
-    font-size: 80px;
-    position: relative;
-    animation: upDown 2s infinite ease-in-out;
-    
+   display: flex;
+   top: 50vh;
+   font-size: 80px;
+   position: relative;
+   animation: upDown 2s infinite ease-in-out;
+   
 }
 #Front{
-    position: relative;
-    white-space: nowrap;
-    top: 20px;
-    transform: translateX(-17vw);  
+   position: relative;
+   white-space: nowrap;
+   top: 20px;
+   transform: translateX(-17vw);  
 }
 
 
-.home > button{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    
+.home button{
+   display: flex;
+   justify-content: center;
+   align-items: center;
 }
 
 @keyframes upDown {
-    0% { transform: translateY(0); }
-    50% { transform: translateY(-20px); } /* Move up */
-    100% { transform: translateY(0); }
-  }
+   0% { transform: translateY(0); }
+   50% { transform: translateY(-20px); } /* Move up */
+   100% { transform: translateY(0); }
+ }
 
 
 section, .home, #Work, #About, #experience{
-    height: 100%;
-    min-height: 45vh;
-    display: flex;
-    align-items: center;
+   height: 100%;
+   min-height: 45vh;
+   display: flex;
+   align-items: center;
 }
 
 #work {
-    margin-top: 300px; /* Adjust this value as needed */
+   margin-top: 300px; /* Adjust this value as needed */
 }
 
-  
-  /* For medium phones */
- /* Default Styles (for desktops and large screens) */
+ 
+ /* For medium phones */
+/* Default Styles (for desktops and large screens) */
 
 #location {
-    font-size: 18px;
-    white-space: nowrap;
-    position: relative;
+   font-size: 18px;
+   white-space: nowrap;
+   position: relative;
 }
 
 
@@ -181,9 +180,9 @@ section, .home, #Work, #About, #experience{
 
 /* Animation */
 @keyframes upDown {
-    0% { transform: translateY(0); }
-    50% { transform: translateY(-20px); }
-    100% { transform: translateY(0); }
+   0% { transform: translateY(0); }
+   50% { transform: translateY(-20px); }
+   100% { transform: translateY(0); }
 }
 
 
@@ -192,98 +191,98 @@ section, .home, #Work, #About, #experience{
 
 
 @media screen and (max-width: 480px) {
-    /* Adjust for common phones */
- body{
-    overflow: auto;
-    width: 100%;
-    max-width: 100vw;
-    overflow-x: hidden;
- }  
- .navbar-container{
-    position: sticky;
-    display: flex;
-    justify-content: center;
+   /* Adjust for common phones */
+body{
+   overflow: auto;
+   width: 100%;
+   max-width: 100vw;
+   overflow-x: hidden;
+}  
+.navbar-container{
+   position: sticky;
+   display: flex;
+   justify-content: center;
 }
 #navBar{
-  display: flex;
-  margin-top: 30px;
-  position: sticky;
-  gap: 10px;
-  z-index: 1000;
+ display: flex;
+ margin-top: 30px;
+ position: sticky;
+ gap: 10px;
+ z-index: 1000;
 }
 
 .home{
-    transform: translate(34% ,30%);
-    display: flex;
+   transform: translate(34% ,30%);
+   display: flex;
 }
- 
- #pfp{
-    position: relative;
-    right: 87px;
-    width: 130px;
- }
- #location{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 150px;
-    font-size: 16px;
-    white-space: nowrap;
-    transform: translate(-90px);
+
+#pfp{
+   position: relative;
+   right: 87px;
+   width: 130px;
+}
+#location{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin-top: 150px;
+   font-size: 16px;
+   white-space: nowrap;
+   transform: translate(-90px);
 }
 
 #ImDan{
-    position: relative;
-    white-space: nowrap;
-    font-size: 30px;
-    bottom: 50px;
-    transform: translate(-50px);
+   position: relative;
+   white-space: nowrap;
+   font-size: 30px;
+   bottom: 50px;
+   transform: translate(-50px);
 }
 
 #Front{
-    font-size: 5vw;
-    right: 70vw;
+   font-size: 5vw;
+   right: 38vw;
 }
 
 #scrollDown{
-    display: flex;
-    top: 30vh;
+   display: flex;
+   top: 30vh;
 }
 
- #home > button{
-    position: relative;
-    left: 0;
-    top: 0;
- }
+#home > button{
+   position: relative;
+   left: 0;
+   top: 0;
+}
 
- .type-text-container {
-    display: inline-block;
-    width: 8ch;
-    overflow: hidden;
-    white-space: nowrap;
+.type-text-container {
+   display: inline-block;
+   width: 8ch;
+   overflow: hidden;
+   white-space: nowrap;
 }
 
 .type-text {
-    display: inline-block;
+   display: inline-block;
 }
 }
 
 
 
 @media screen and (max-width: 768px) {
-    /* Adjust for common phones and small tablets */
-    #ImDan{
-        top: 10px;
-    }
-    #Front{
-        position: relative;
-        white-space: nowrap;
-        top: 20px;
-        transform: translateX(-32vw);  
-    }
+   /* Adjust for common phones and small tablets */
+   #ImDan{
+       top: 10px;
+   }
+   #Front{
+       position: relative;
+       white-space: nowrap;
+       top: 20px;
+       transform: translateX(-32vw);  
+   }
 }
 
 
 @media screen and (max-width: 1024px) {
-    /* Adjust for tablets and small laptops */   
+   /* Adjust for tablets and small laptops */   
 }
