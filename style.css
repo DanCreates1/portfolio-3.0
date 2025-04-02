@@ -284,5 +284,11 @@ body{
 
 
 @media screen and (max-width: 1024px) {
-   /* Adjust for tablets and small laptops */   
+   /* Adjust for tablets and small laptops */  
+   #Front{
+      position: relative;
+      white-space: nowrap;
+      top: 20px;
+      transform: translateX(-30vw);  
+  } 
 }
