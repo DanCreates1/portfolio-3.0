@@ -285,6 +285,10 @@ body{
 
 @media screen and (max-width: 1024px) {
    /* Adjust for tablets and small laptops */  
+   #home{
+      transform: translate(54%);
+      
+   }
    #Front{
       position: relative;
       white-space: nowrap;
