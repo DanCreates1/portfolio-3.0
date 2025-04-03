@@ -130,6 +130,8 @@ div{
    top: 50vh;
    font-size: 80px;
    position: relative;
+   display:block;
+   float:left;
    animation: upDown 2s infinite ease-in-out;
    
 }
